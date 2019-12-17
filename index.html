@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Formatação - Referências/ABNT</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <section class="container">
+            <form>
+                <h2>Formatação - Referências/ABNT</h2>
+                    <label for="autor">Nome do autor:</label>
+                    <input type="text" id="autor" placeholder="Eça de Queiróz">
+
+                    <label for="titulo">Título da obra:</label>
+                    <input type="text" id="titulo" placeholder="O Primo Basílio">
+
+                    <label for="edicao">Número da edição:</label>
+                    <input type="text" id="edicao" placeholder="1">
+
+                    <label for="local">Local da publicação:</label>
+                    <input type="text" id="local" placeholder="Porto">
+
+                    <label for="editora">Nome da editora:</label>
+                    <input type="text" id="editora" placeholder="Livraria Chardron">
+
+                    <label for="ano">Ano de publicação:</label>
+                    <input type="text" id="ano" placeholder="1878">
+
+                    <button type="button" onclick="transformar()">Formatar</button>
+
+                    <label for="saida">Resultado:</label>
+                    <input type="text" id="saida" placeholder="QUEIROZ, E. O Primo Basílio: 1. ed. Porto: Livraria Chardron, 1878">
+            </form>
+        </section>
+        <!-- Linkando bibliotecas -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
